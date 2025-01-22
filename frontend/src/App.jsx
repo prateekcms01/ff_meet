@@ -7,8 +7,6 @@ import HomePage from "./pages/HomePage";
 import MeetingsPage from "./pages/MeetingPage";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Router>
