@@ -18,7 +18,7 @@ const HomePage = () => {
   };
 
   return (
-    <div className="h-screen bg-gradient-to-br from-blue-900 via-gray-900 to-black flex flex-col items-center justify-center">
+    <div className="h-screen shadow-2xl bg-gradient-to-br from-blue-900 via-gray-900 to-black flex flex-col items-center justify-center">
       {/* Header Section */}
       <header className="absolute top-0 left-0 w-full flex items-center justify-between px-8 py-4 text-white">
         {/* Logo Section */}
@@ -55,19 +55,14 @@ const HomePage = () => {
       {/* Hero Section */}
       <div className="text-center mb-12">
         <div className="flex flex-col items-center space-y-4">
-          <img
+          {/* <img
             src={image} // Path to your logo
             alt=""
             className="w-20 h-20"
-          />
-          <h1 className="text-4xl font-extrabold text-white mb-7 animate-fade-in">
-            Welcome to FlutterFlirt Meet
-          </h1>
+          /> */}
+          <h1 className="text-4xl font-extrabold text-white mb-7 animate-fade-in"></h1>
         </div>
-        <p className="text-md text-gray-300 mb-8 max-w-xl mx-auto font-sans">
-          Create or join seamless video meetings with ease. No hassle, no
-          confusion—just connect and collaborate.
-        </p>
+        <p className="text-md text-gray-300 mb-8 max-w-xl mx-auto font-sans"></p>
         <a
           href="#create-meeting"
           className="px-6 py-3 bg-blue-600 text-white rounded-md text-lg hover:bg-blue-500 transition duration-300 shadow-lg"
